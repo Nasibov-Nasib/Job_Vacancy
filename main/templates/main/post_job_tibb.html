@@ -1,0 +1,105 @@
+{% extends 'main/layout.html' %}
+{% block content %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<div class="container">
+
+<form action="{% url 'post_job_tibb' %}" method="post" id="form">
+    {% csrf_token %}
+    <label for="">sirket</label>
+    <input type="text" name="sirket" class="form-control">
+    <br>
+    <label for="">maas</label>
+    <input type="text" name="maas" class="form-control">
+    <br>
+    <label for="">seher</label>
+    <input type="text" name="seher" class="form-control">
+    <br>
+    <label for="">mezmun</label>
+    <input type="text" name="mezmun" class="form-control">
+    <br>
+    <label for="">start</label>
+    <input type="text" name="start" class="form-control">
+    <br>
+    <label for="">end</label>
+    <input type="text" name="end" class="form-control">
+    <br>
+    <label for="">basliq</label>
+    <input type="text" name="basliq" class="form-control">
+    <br>
+    <label for="">email</label>
+    <input type="text" name="email" class="form-control">
+    <br>
+    <label for="">staj</label>
+    <input type="text" name="staj" class="form-control">
+    <br>
+    <label for="">yash</label>
+    <input type="text" name="yash" class="form-control">
+    <br>
+    <label for="">tehsil</label>
+    <input type="text" name="tehsil" class="form-control">
+    <br>
+    <label for="">rejm</label>
+    <input type="text" name="rejm" class="form-control">
+    <br>
+    <label for="">muqavile</label>
+    <input type="text" name="muqavile" class="form-control">
+    <br>
+    <label for="">apply_link</label>
+    <input type="text" name="apply_link" class="form-control">
+    <br>
+    <label for="">text1</label>
+    <input type="text" name="text1" class="form-control">
+    <br>
+    <label for="">text2</label>
+    <input type="text" name="text2" class="form-control">
+    <br>
+    <label for="">text3</label>
+    <input type="text" name="text3" class="form-control">
+    <br>
+    <label for="">text4</label>
+    <input type="text" name="text4" class="form-control">
+    <br>
+    <label for="">text5</label>
+    <input type="text" name="text5" class="form-control">
+    <br>
+    <label for="">text6</label>
+    <input type="text" name="text6" class="form-control">
+    <br>
+    <label for="">text7</label>
+    <input type="text" name="text7" class="form-control">
+    <br>
+    <label for="">text_1</label>
+    <input type="text" name="text_1" class="form-control">
+    <br>
+    <label for="">text_2</label>
+    <input type="text" name="text_2" class="form-control">
+    <br>
+    <label for="">text_3</label>
+    <input type="text" name="text_3" class="form-control">
+    <br>
+    <label for="">text_4</label>
+    <input type="text" name="text_4" class="form-control">
+    <br>
+    <label for="">text_5</label>
+    <input type="text" name="text_5" class="form-control">
+    <br>
+    <label for="">text_6</label>
+    <input type="text" name="text_6" class="form-control">
+    <br>
+    <label for="">text_7</label>
+    <input type="text" name="text_7" class="form-control">
+
+    
+    <br><br>
+    <button type="submit">Daxil Et</button>
+
+
+
+</form>
+
+</div>
+
+
+
+{% endblock %}
